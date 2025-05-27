@@ -1,0 +1,6 @@
+Abra o terminal no diretório do projeto.
+
+Rode um servidor local (HTML não roda module com duplo clique no navegador). Você pode usar:
+npx serve .
+
+Abra http://localhost:3000 (ou a porta que aparecer) no navegador.

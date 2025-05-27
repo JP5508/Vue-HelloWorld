@@ -1,6 +1,6 @@
-Abra o terminal no diretório do projeto.
-
-Rode um servidor local (HTML não roda module com duplo clique no navegador). Você pode usar:
+-Abra o terminal do VScode no diretorio do projeto e use:
 npx serve .
 
-Abra http://localhost:3000 (ou a porta que aparecer) no navegador.
+-Abra http://localhost:3000 (ou a porta que aparecer) no navegador
+
+-Do que eu entendi, precisa estar rodando em um servidor para que o navegador permita a importação dos módulos necessários

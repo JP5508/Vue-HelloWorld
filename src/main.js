@@ -1,8 +1,8 @@
-//Importamos createApp diretamente da CDN do Vue 3.
+//Importamos createApp diretamente da CDN do Vue 3
 import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
 
-//App é um objeto JavaScript que representa o componente raiz da sua aplicação.
-//Esse objeto possui uma propriedade chamada template, que é uma string HTML que o Vue vai renderizar.
+//App é um objeto JavaScript que representa o componente raiz da sua aplicação
+//Esse objeto possui uma propriedade chamada template, que é uma string HTML que o Vue vai renderizar
 const App = {
   template: `
   <h1>Hello World </h1>
@@ -12,6 +12,6 @@ const App = {
 }
 
 
-//createApp(App) cria a instância da aplicação Vue usando o componente App como raiz.
-//.mount('#app') diz para o Vue "renderizar e colocar essa aplicação dentro do elemento HTML que tem o id app".
+//createApp(App) cria a instância da aplicação Vue usando o componente App como raiz
+//.mount('#app') diz para o Vue "renderizar e colocar essa aplicação dentro do elemento HTML que tem o id app"
 createApp(App).mount('#app')
